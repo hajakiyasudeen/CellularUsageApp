@@ -35,6 +35,8 @@
 		FF0B77B72EB5110C00C5D533 /* SpecialOfferModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77B62EB5110C00C5D533 /* SpecialOfferModel.swift */; };
 		FF0B77BA2EB5119400C5D533 /* PlansViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77B82EB5119400C5D533 /* PlansViewModelTests.swift */; };
 		FF0B77BB2EB5119400C5D533 /* SpecialOffersViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77B92EB5119400C5D533 /* SpecialOffersViewModelTests.swift */; };
+		FF0B77BE2EB5C3A900C5D533 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77BD2EB5C3A900C5D533 /* SplashScreenView.swift */; };
+		FF0B77BF2EB5C3A900C5D533 /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77BC2EB5C3A900C5D533 /* MainAppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		FF0B77B62EB5110C00C5D533 /* SpecialOfferModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialOfferModel.swift; sourceTree = "<group>"; };
 		FF0B77B82EB5119400C5D533 /* PlansViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansViewModelTests.swift; sourceTree = "<group>"; };
 		FF0B77B92EB5119400C5D533 /* SpecialOffersViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialOffersViewModelTests.swift; sourceTree = "<group>"; };
+		FF0B77BC2EB5C3A900C5D533 /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+		FF0B77BD2EB5C3A900C5D533 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 		3A000002 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FF0B77BC2EB5C3A900C5D533 /* MainAppView.swift */,
+				FF0B77BD2EB5C3A900C5D533 /* SplashScreenView.swift */,
 				2A000002 /* ContentView.swift */,
 				2A000003 /* CellularUsageView.swift */,
 				2A000030 /* SettingsView.swift */,
@@ -332,6 +338,8 @@
 				1A000004 /* CellularUsageModel.swift in Sources */,
 				1A000005 /* CellularUsageViewModel.swift in Sources */,
 				1A000006 /* CellularUsageService.swift in Sources */,
+				FF0B77BE2EB5C3A900C5D533 /* SplashScreenView.swift in Sources */,
+				FF0B77BF2EB5C3A900C5D533 /* MainAppView.swift in Sources */,
 				FF0B77B02EB510C300C5D533 /* PlansViewModel.swift in Sources */,
 				FF0B77B12EB510C300C5D533 /* SpecialOffersViewModel.swift in Sources */,
 				FF0B77B42EB510D200C5D533 /* PlansService.swift in Sources */,

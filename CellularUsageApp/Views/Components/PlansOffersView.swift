@@ -14,14 +14,23 @@ struct PlansOffersView: View {
         VStack(spacing: 20) {
             // Header
             SectionHeaderView(
-                title: "Available Plans (\(viewModel.plans.count))",
+                title: "Plans (\(viewModel.plans.count))",
                 subtitle: "Choose the perfect plan"
             )
 
             // Plans
             LazyVStack(spacing: 15) {
                 ForEach(viewModel.plans) { plan in
-                    PlanCardView(plan: plan)
+                    PlanCardView(
+                        plan: plan,
+                        isSelected: viewModel.isSelected(plan),
+                        onTap: {
+                            viewModel.selectPlan(plan)
+                        },
+                        onSubscribe: {
+                            viewModel.subscribeToPlan(plan)
+                        }
+                    )
                 }
             }
             .padding(.horizontal, 16)
@@ -59,6 +68,9 @@ struct SectionHeaderView: View {
 
 struct PlanCardView: View {
     let plan: Plan
+    let isSelected: Bool
+    let onTap: () -> Void
+    let onSubscribe: () -> Void
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -99,16 +111,14 @@ struct PlanCardView: View {
                 }
             }
 
-            Button(action: {
-                // Subscribe action
-            }) {
-                Text("SUBSCRIBE")
+            Button(action: onSubscribe) {
+                Text(isSelected ? "SUBSCRIBE NOW" : "SELECT PLAN")
                     .font(.headline)
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 12)
-                    .background(plan.buttonColor)
+                    .background(isSelected ? Color.blue : Color.gray)
                     .cornerRadius(8)
             }
         }
@@ -119,7 +129,21 @@ struct PlanCardView: View {
         }
         .overlay {
             RoundedRectangle(cornerRadius: 12)
-                .stroke(plan.borderColor, lineWidth: plan.isPopular ? 1.5 : 0.5)
+                .stroke(
+                    isSelected ? Color.blue : Color(.separator),
+                    lineWidth: isSelected ? 2.5 : 0.5
+                )
+        }
+        .scaleEffect(isSelected ? 1.02 : 1.0)
+        .shadow(
+            color: isSelected ? Color.blue.opacity(0.3) : Color.clear,
+            radius: isSelected ? 8 : 0,
+            x: 0,
+            y: isSelected ? 4 : 0
+        )
+        .animation(.easeInOut(duration: 0.2), value: isSelected)
+        .onTapGesture {
+            onTap()
         }
     }
 }
