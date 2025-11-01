@@ -22,11 +22,12 @@ struct SpecialOffersScrollView: View {
                 HStack(spacing: 16) {
                     ForEach(viewModel.specialOffers) { offer in
                         SpecialOfferCardView(offer: offer)
-                            .frame(width: 280) // Fixed width for horizontal scrolling
+                            .frame(width: 280, height: 160) // Fixed width and height for horizontal scrolling
                     }
                 }
                 .padding(.horizontal, 16)
             }
+            .frame(height: 160) // Set explicit height for ScrollView
         }
     }
 }
