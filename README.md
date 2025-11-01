@@ -229,3 +229,9 @@ func testPlanSelection() {
 2. Ensure all tests pass
 3. Test on multiple device sizes
 4. Verify dark mode compatibility
+
+### Test Coverage Results
+Current test coverage demonstrates our commitment to code quality:
+<img width="1142" height="883" alt="Screenshot 2025-11-01 at 10 44 12 AM" src="https://github.com/user-attachments/assets/b4f5ec00-b620-4a13-b561-fd9a4da28903" />
+
+
