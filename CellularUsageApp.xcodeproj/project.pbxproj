@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A000001 /* CellularUsageAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000001 /* CellularUsageAppApp.swift */; };
+		1A000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000002 /* ContentView.swift */; };
+		1A000003 /* CellularUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000003 /* CellularUsageView.swift */; };
+		1A000004 /* CellularUsageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000004 /* CellularUsageModel.swift */; };
+		1A000005 /* CellularUsageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000005 /* CellularUsageViewModel.swift */; };
+		1A000006 /* CellularUsageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000006 /* CellularUsageService.swift */; };
+		1A000007 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000007 /* HeaderView.swift */; };
+		1A000008 /* BalanceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000008 /* BalanceCardView.swift */; };
+		1A000009 /* RenewalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000009 /* RenewalCardView.swift */; };
+		1A000014 /* CustomProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000014 /* CustomProgressViewStyle.swift */; };
+		1A000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A000015 /* Assets.xcassets */; };
+		1A000016 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A000016 /* Preview Assets.xcassets */; };
+		1A000017 /* CellularUsageViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000017 /* CellularUsageViewModelTests.swift */; };
+		1A000018 /* CellularUsageModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000018 /* CellularUsageModelTests.swift */; };
+		1A000019 /* CellularUsageServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000019 /* CellularUsageServiceTests.swift */; };
+		1A000030 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000030 /* SettingsView.swift */; };
+		1A000031 /* PlansOffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000031 /* PlansOffersView.swift */; };
+		1A000032 /* UsageCardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000032 /* UsageCardType.swift */; };
+		1A000033 /* GenericUsageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000033 /* GenericUsageCardView.swift */; };
+		1A000035 /* PlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000035 /* PlanModel.swift */; };
+		FF0B77A92EB4F84100C5D533 /* SpecialOffersScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77A82EB4F84100C5D533 /* SpecialOffersScrollView.swift */; };
+		FF0B77B02EB510C300C5D533 /* PlansViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77AE2EB510C300C5D533 /* PlansViewModel.swift */; };
+		FF0B77B12EB510C300C5D533 /* SpecialOffersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77AF2EB510C300C5D533 /* SpecialOffersViewModel.swift */; };
+		FF0B77B42EB510D200C5D533 /* PlansService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77B22EB510D200C5D533 /* PlansService.swift */; };
+		FF0B77B52EB510D200C5D533 /* SpecialOffersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77B32EB510D200C5D533 /* SpecialOffersService.swift */; };
+		FF0B77B72EB5110C00C5D533 /* SpecialOfferModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77B62EB5110C00C5D533 /* SpecialOfferModel.swift */; };
+		FF0B77BA2EB5119400C5D533 /* PlansViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77B82EB5119400C5D533 /* PlansViewModelTests.swift */; };
+		FF0B77BB2EB5119400C5D533 /* SpecialOffersViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B77B92EB5119400C5D533 /* SpecialOffersViewModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A000020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A999990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A999999;
+			remoteInfo = CellularUsageApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A000000 /* CellularUsageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellularUsageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A000001 /* CellularUsageAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularUsageAppApp.swift; sourceTree = "<group>"; };
+		2A000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A000003 /* CellularUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularUsageView.swift; sourceTree = "<group>"; };
+		2A000004 /* CellularUsageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularUsageModel.swift; sourceTree = "<group>"; };
+		2A000005 /* CellularUsageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularUsageViewModel.swift; sourceTree = "<group>"; };
+		2A000006 /* CellularUsageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularUsageService.swift; sourceTree = "<group>"; };
+		2A000007 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2A000008 /* BalanceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceCardView.swift; sourceTree = "<group>"; };
+		2A000009 /* RenewalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenewalCardView.swift; sourceTree = "<group>"; };
+		2A000014 /* CustomProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressViewStyle.swift; sourceTree = "<group>"; };
+		2A000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A000016 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A000017 /* CellularUsageViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularUsageViewModelTests.swift; sourceTree = "<group>"; };
+		2A000018 /* CellularUsageModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularUsageModelTests.swift; sourceTree = "<group>"; };
+		2A000019 /* CellularUsageServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularUsageServiceTests.swift; sourceTree = "<group>"; };
+		2A000021 /* CellularUsageAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellularUsageAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A000030 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2A000031 /* PlansOffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansOffersView.swift; sourceTree = "<group>"; };
+		2A000032 /* UsageCardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageCardType.swift; sourceTree = "<group>"; };
+		2A000033 /* GenericUsageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericUsageCardView.swift; sourceTree = "<group>"; };
+		2A000035 /* PlanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanModel.swift; sourceTree = "<group>"; };
+		FF0B77A82EB4F84100C5D533 /* SpecialOffersScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialOffersScrollView.swift; sourceTree = "<group>"; };
+		FF0B77AE2EB510C300C5D533 /* PlansViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansViewModel.swift; sourceTree = "<group>"; };
+		FF0B77AF2EB510C300C5D533 /* SpecialOffersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialOffersViewModel.swift; sourceTree = "<group>"; };
+		FF0B77B22EB510D200C5D533 /* PlansService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansService.swift; sourceTree = "<group>"; };
+		FF0B77B32EB510D200C5D533 /* SpecialOffersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialOffersService.swift; sourceTree = "<group>"; };
+		FF0B77B62EB5110C00C5D533 /* SpecialOfferModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialOfferModel.swift; sourceTree = "<group>"; };
+		FF0B77B82EB5119400C5D533 /* PlansViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansViewModelTests.swift; sourceTree = "<group>"; };
+		FF0B77B92EB5119400C5D533 /* SpecialOffersViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialOffersViewModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A000022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A999997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A999991 = {
+			isa = PBXGroup;
+			children = (
+				1A999992 /* CellularUsageApp */,
+				3A000007 /* CellularUsageAppTests */,
+				1A999998 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A999992 /* CellularUsageApp */ = {
+			isa = PBXGroup;
+			children = (
+				2A000001 /* CellularUsageAppApp.swift */,
+				3A000001 /* Models */,
+				3A000002 /* Views */,
+				3A000003 /* ViewModels */,
+				3A000004 /* Services */,
+				3A000005 /* Utilities */,
+				2A000015 /* Assets.xcassets */,
+				1A999993 /* Preview Content */,
+			);
+			path = CellularUsageApp;
+			sourceTree = "<group>";
+		};
+		1A999993 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A000016 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A999998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A000000 /* CellularUsageApp.app */,
+				2A000021 /* CellularUsageAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A000004 /* CellularUsageModel.swift */,
+				2A000032 /* UsageCardType.swift */,
+				FF0B77B62EB5110C00C5D533 /* SpecialOfferModel.swift */,
+				2A000035 /* PlanModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A000002 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A000002 /* ContentView.swift */,
+				2A000003 /* CellularUsageView.swift */,
+				2A000030 /* SettingsView.swift */,
+				3A000006 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A000003 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2A000005 /* CellularUsageViewModel.swift */,
+				FF0B77AE2EB510C300C5D533 /* PlansViewModel.swift */,
+				FF0B77AF2EB510C300C5D533 /* SpecialOffersViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3A000004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2A000006 /* CellularUsageService.swift */,
+				FF0B77B22EB510D200C5D533 /* PlansService.swift */,
+				FF0B77B32EB510D200C5D533 /* SpecialOffersService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3A000005 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2A000014 /* CustomProgressViewStyle.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3A000006 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B77A82EB4F84100C5D533 /* SpecialOffersScrollView.swift */,
+				2A000007 /* HeaderView.swift */,
+				2A000008 /* BalanceCardView.swift */,
+				2A000009 /* RenewalCardView.swift */,
+				2A000031 /* PlansOffersView.swift */,
+				2A000033 /* GenericUsageCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3A000007 /* CellularUsageAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A000017 /* CellularUsageViewModelTests.swift */,
+				2A000018 /* CellularUsageModelTests.swift */,
+				2A000019 /* CellularUsageServiceTests.swift */,
+				FF0B77B82EB5119400C5D533 /* PlansViewModelTests.swift */,
+				FF0B77B92EB5119400C5D533 /* SpecialOffersViewModelTests.swift */,
+			);
+			path = CellularUsageAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A000023 /* CellularUsageAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A000024 /* Build configuration list for PBXNativeTarget "CellularUsageAppTests" */;
+			buildPhases = (
+				1A000025 /* Sources */,
+				1A000022 /* Frameworks */,
+				1A000026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A000027 /* PBXTargetDependency */,
+			);
+			name = CellularUsageAppTests;
+			productName = CellularUsageAppTests;
+			productReference = 2A000021 /* CellularUsageAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A999999 /* CellularUsageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A999994 /* Build configuration list for PBXNativeTarget "CellularUsageApp" */;
+			buildPhases = (
+				1A999996 /* Sources */,
+				1A999997 /* Frameworks */,
+				1A999995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellularUsageApp;
+			productName = CellularUsageApp;
+			productReference = 2A000000 /* CellularUsageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A999990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1A000023 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1A999999;
+					};
+					1A999999 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 1A999989 /* Build configuration list for PBXProject "CellularUsageApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A999991;
+			productRefGroup = 1A999998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A999999 /* CellularUsageApp */,
+				1A000023 /* CellularUsageAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A000026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A999995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A000016 /* Preview Assets.xcassets in Resources */,
+				1A000015 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A000025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0B77BA2EB5119400C5D533 /* PlansViewModelTests.swift in Sources */,
+				FF0B77BB2EB5119400C5D533 /* SpecialOffersViewModelTests.swift in Sources */,
+				1A000017 /* CellularUsageViewModelTests.swift in Sources */,
+				1A000018 /* CellularUsageModelTests.swift in Sources */,
+				1A000019 /* CellularUsageServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A999996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A000001 /* CellularUsageAppApp.swift in Sources */,
+				1A000002 /* ContentView.swift in Sources */,
+				1A000003 /* CellularUsageView.swift in Sources */,
+				1A000004 /* CellularUsageModel.swift in Sources */,
+				1A000005 /* CellularUsageViewModel.swift in Sources */,
+				1A000006 /* CellularUsageService.swift in Sources */,
+				FF0B77B02EB510C300C5D533 /* PlansViewModel.swift in Sources */,
+				FF0B77B12EB510C300C5D533 /* SpecialOffersViewModel.swift in Sources */,
+				FF0B77B42EB510D200C5D533 /* PlansService.swift in Sources */,
+				FF0B77B52EB510D200C5D533 /* SpecialOffersService.swift in Sources */,
+				1A000007 /* HeaderView.swift in Sources */,
+				1A000008 /* BalanceCardView.swift in Sources */,
+				FF0B77A92EB4F84100C5D533 /* SpecialOffersScrollView.swift in Sources */,
+				1A000009 /* RenewalCardView.swift in Sources */,
+				1A000014 /* CustomProgressViewStyle.swift in Sources */,
+				1A000030 /* SettingsView.swift in Sources */,
+				1A000031 /* PlansOffersView.swift in Sources */,
+				1A000032 /* UsageCardType.swift in Sources */,
+				1A000033 /* GenericUsageCardView.swift in Sources */,
+				FF0B77B72EB5110C00C5D533 /* SpecialOfferModel.swift in Sources */,
+				1A000035 /* PlanModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A000027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A999999 /* CellularUsageApp */;
+			targetProxy = 1A000020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A888881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A888882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A888883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CellularUsageApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CellularUsageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A888884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CellularUsageApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CellularUsageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A888885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CellularUsageAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellularUsageApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CellularUsageApp";
+			};
+			name = Debug;
+		};
+		1A888886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CellularUsageAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellularUsageApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CellularUsageApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A000024 /* Build configuration list for PBXNativeTarget "CellularUsageAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A888885 /* Debug */,
+				1A888886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A999989 /* Build configuration list for PBXProject "CellularUsageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A888881 /* Debug */,
+				1A888882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A999994 /* Build configuration list for PBXNativeTarget "CellularUsageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A888883 /* Debug */,
+				1A888884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A999990 /* Project object */;
+}
