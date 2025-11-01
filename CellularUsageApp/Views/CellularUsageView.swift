@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CellularUsageView: View {
     @StateObject private var viewModel = CellularUsageViewModel()
-    @State private var selectedTab = 0 // 0 for My Usage, 1 for Plans & Offers
+    @State private var selectedTab = 0 // 0 for My Usage, 1 for Plans
 
     var body: some View {
         NavigationView {
@@ -33,7 +33,7 @@ struct CellularUsageView: View {
                         // Segmented Control
                         Picker("", selection: $selectedTab) {
                             Text("MY USAGE").tag(0)
-                            Text("PLANS & OFFERS").tag(1)
+                            Text("PLANS").tag(1)
                         }
                         .pickerStyle(.segmented)
                         .padding(.horizontal)
@@ -53,7 +53,7 @@ struct CellularUsageView: View {
                                     .padding(.top, 10)
                             }
                         } else {
-                            // Plans & Offers Content
+                            // Plans Content
                             PlansOffersView()
                         }
 

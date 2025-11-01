@@ -35,7 +35,7 @@ class SpecialOffersService: SpecialOffersServiceProtocol {
                 borderColor: .orange.opacity(0.3)
             ),
             SpecialOffer(
-                title: "Student Plan",
+                title: "Student Special Plan",
                 description: "50% off for students. Verify with your student ID.",
                 badgeText: "50% OFF",
                 badgeColor: .green,
